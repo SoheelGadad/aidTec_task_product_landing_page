@@ -51,7 +51,7 @@ overlay.addEventListener('click', () => {
 });
 
 //video controle
-const video = document.querySelector('.home__img-container video');
+const video = document.querySelector('.banner__video-container video');
 
 video.addEventListener('mouseover', playVideo);
 // video.addEventListener('mouseout', pauseVideo);

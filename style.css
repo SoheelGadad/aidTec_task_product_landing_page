@@ -178,7 +178,7 @@ img{
   cursor: pointer;
   font-size: 30px;
   float: right;
-  color: #ed1e79;
+  color: #ed2c1e;
   line-height: 80px;
 }
 
@@ -280,6 +280,36 @@ img{
 .home__img-container video:hover {
   cursor: pointer;
 }
+
+/* cc */
+.banner__container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+    
+}
+
+.banner__video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* Maintain 16:9 aspect ratio for the video */
+}
+
+.banner__video-container video {
+  position: absolute;
+  top: 0;
+  left: 35px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.banner__data {
+  text-align: center;
+  margin-top: 20px;
+}
+
 
 /*========== BUTTONS ==========*/
 .button{
@@ -465,27 +495,35 @@ img{
 @media screen and (min-width: 576px){
   .home__container,
   .about__container,
+  .banner__container,
   .app__container{
     grid-template-columns: repeat(2,1fr);
     align-items: center;
   }
+  .home__title{
+    font-size: var(--mb-4);
+    margin-top: 50px;
+  }
+  .home__subtitle{
+    font-size: var(--mb-2);
+  }
 
-  .about__data, .about__initial,
-  .app__data, .app__initial,
-  .contact__container, .contact__initial{
-    text-align: initial;
-  }
-  .home__img{
-  width: 500px;
+  .home__img,
+  .home__img2{
+    margin-top: 20px;
+  width: 350px;
   justify-self: center;
-  /* padding: 55px 50px 0px 5px; */
   }
-  .contact__container{
-    grid-template-columns: 1.75fr 1fr;
-    align-items: center;
+
+  .banner__video-container video{
+    margin-top: 50px;
+  width: 100%;
+  height: 120%;
   }
-  .contact__button{
-    justify-self: center;
+  .banner__subtitle{
+    margin-top: 50%;
+    font-size: var(--mb-2);
+    padding-left: 13px;
   }
 }
 
@@ -512,14 +550,12 @@ img{
     display: none;
   }
 
-  .change-theme{
-    position: initial;
-    margin-left: var(--mb-2);
-  }
-
   .home__container{
     height: 100vh;
     justify-items: center;
+  }
+  .banner__container{
+    width: 90%;
   }
 
   .services__container,
@@ -537,6 +573,7 @@ img{
   .Product__img{
     width: 130px;
   }
+
 
   .app__store{
     margin: 0 var(--mb-1) 0 0;
