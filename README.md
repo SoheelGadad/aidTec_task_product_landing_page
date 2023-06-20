@@ -7,6 +7,7 @@ This repository contains the tasks completed for the aidTech Internship in Web D
 1. Task 1: Product Landing Page
    - Description: Create a product landing page for a specific product.
    - Files: [Task1](https://github.com/SoheelGadad/aidTec_task_product_landing_page)
+   - Demo: [Task1](https://soheelgadad.github.io/aidTec_task_product_landing_page/)
 
 2. Task 2: Calculator
    - Description: Build a calculator application with basic arithmetic operations.
