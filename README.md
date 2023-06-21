@@ -1,4 +1,4 @@
-# aidTec_task
+# infoaidTech Internship Task
 
 This repository contains the tasks completed for the aidTech Internship in Web Development.
 
