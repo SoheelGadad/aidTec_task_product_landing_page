@@ -9,18 +9,6 @@ This repository contains the tasks completed for the aidTech Internship in Web D
    - Files: [Task1](https://github.com/SoheelGadad/aidTec_task_product_landing_page)
    - Demo: [Task1](https://soheelgadad.github.io/aidTec_task_product_landing_page/)
 
-2. Task 2: Calculator
-   - Description: Build a calculator application with basic arithmetic operations.
-   - Files: [Task2](link-to-task2-folder)
-
-3. Task 3: Temperature Converter
-   - Description: Develop a temperature converter that converts between Celsius, Fahrenheit, and Kelvin.
-   - Files: [Task3](link-to-task3-folder)
-
-4. Task 4: Restaurant Website
-   - Description: Design and implement a restaurant website with multiple pages and interactive features.
-   - Files: [Task4](link-to-task4-folder)
-
 ## Additional Information
 
 - Repository: [Link to the main repository](https://github.com/SoheelGadad/aidTec_task)
